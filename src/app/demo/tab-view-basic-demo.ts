@@ -4,4 +4,9 @@ import { Component } from '@angular/core';
     selector: 'tab-view-basic-demo',
     templateUrl: './tab-view-basic-demo.html'
 })
-export class TabViewBasicDemo {}
+export class TabViewBasicDemo {
+    activeIndex = 0;
+    tab1() {
+        this.activeIndex = 0;
+    }
+}

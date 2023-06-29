@@ -2,6 +2,10 @@
   "name": "primeng-tab-view-basic-demo",
   "description": "PrimeNG TabViewBasicDemo",
   "licence": "MIT",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve"
+  },
   "keywords": [],
   "scripts": {
     "ng": "ng",
